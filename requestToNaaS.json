@@ -1,0 +1,73 @@
+{
+  "externalId": "581008_62002101_49ae1dff-4141-11ec-97ee-0a580a830a11",
+  "priority": "1",
+  "serviceOrderItem": [
+    {
+      "service": {
+        "href": "http://som-core-app/ngsf/si/serviceInventoryManagement/service/RFS_UFB_44003401?perspective=plan",
+        "state": "active",
+        "serviceCharacteristic": [
+          {
+            "valueType": "string",
+            "name": "ufb.ServiceProfile",
+            "value": "vfc Private 100-50-10-2.5"
+          },
+          {
+            "valueType": "string",
+            "name": "ufb.HandoverID",
+            "value": "423423"
+          },
+          {
+            "valueType": "string",
+            "name": "ufb.contact.Name",
+            "value": "Jan Kowalski"
+          },
+          {
+            "valueType": "timedate",
+            "name": "ufb.DesiredDateTime",
+            "value": "1635393150852000000"
+          },
+          {
+            "valueType": "string",
+            "name": "ufb.OrderType",
+            "value": "Connect Primary"
+          },
+          {
+            "valueType": "string",
+            "name": "ufb.LocationID",
+            "value": "100725515"
+          },
+          {
+            "valueType": "string",
+            "name": "ufb.PrequalUUID",
+            "value": "f23368c9-fabc-4ff0-a448-699bc82e6f53"
+          },
+          {
+            "valueType": "string",
+            "name": "ufb.contact.Email",
+            "value": "jan.kowalski@op.pl"
+          },
+          {
+            "valueType": "string",
+            "name": "ufb.contact.PhoneNumber",
+            "value": "07010034423"
+          }
+        ],
+        "serviceSpecification": {
+          "id": "0a306b84-ecf4-4ec6-b4fb-023d2f7a46bb"
+        }
+      },
+      "action": "add",
+      "id": "1"
+    }
+  ],
+  "id": "ba3110cd-db74-4a01-9215-d0e28411acc5",
+  "orderRelationship": [
+    {
+      "id": "62002101",
+      "type": "aggregatedBy",
+      "source": "orderItem"
+    }
+  ],
+  "requestedCompletionDate": "2021-03-20T20:42:23+00:00"
+}
